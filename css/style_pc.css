@@ -1,0 +1,70 @@
+/*
+DEFINITION DES ELEMENTS DE BASE
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    background-color: #DDDDDD;
+}
+
+#logo{
+    width: 4%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/*
+***********************HEADER*********************
+ */
+
+header{
+    background-color: black;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+    width: 50%;
+    margin-top: 2.5%;
+    margin-right: 2%;
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 3%;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+header ul li a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*
+***********************FOOTER*********************
+ */
+footer{
+    background-color: black;
+    height: 5em;
+}
+
+footer section{
+    float: right;
+    width: 33%;
+    bakground-color: #777;
+    height: 3em;
+}
