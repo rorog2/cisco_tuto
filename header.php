@@ -1,5 +1,5 @@
 <header>
-    <img src="img/logo.jpg" alt="Logo du site" id="logo" />
+    <h1><img src="img/logo.jpg" alt="Logo du site" id="logo" />La simplicité Cisco</h1>
     <ul>
         <li><a href="index.php">Aceuil</a></li>
         <li><a href="tutoriels.php">Tutoriels</a></li>

@@ -26,12 +26,18 @@ header{
     background-color: black;
 }
 
+header h1{
+    color: white;
+    display: inline;
+}
+
 header ul {
     list-style-type: none;
     float: right;
     width: 50%;
     margin-top: 2.5%;
     margin-right: 2%;
+    margin-left: 20%;
 }
 
 header ul li{
@@ -53,6 +59,12 @@ header ul li a:visited{
     font-size: 150%;
     font-family: 'Raleway', sans-serif;
 }
+/*
+***********************FOOTER*********************
+ */
+main{
+    height: 20em;
+}
 
 /*
 ***********************FOOTER*********************
@@ -60,11 +72,17 @@ header ul li a:visited{
 footer{
     background-color: black;
     height: 5em;
+    width: 100%;
 }
 
 footer section{
-    float: right;
-    width: 33%;
-    bakground-color: #777;
+    display: inline-block;
+    width: 32%;
+    background-color: #777;
     height: 3em;
+    text-align: center;
+}
+
+footer section.s1{
+    margin-left: 2%;
 }
