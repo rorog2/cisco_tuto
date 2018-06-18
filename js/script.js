@@ -1,0 +1,1 @@
+confirm('Tous ce passe bien ?')

@@ -3,9 +3,11 @@ DEFINITION DES ELEMENTS DE BASE
  */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
     background-color: #DDDDDD;
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo{
@@ -60,7 +62,7 @@ header ul li a:visited{
     font-family: 'Raleway', sans-serif;
 }
 /*
-***********************FOOTER*********************
+************************MAIN**********************
  */
 main{
     height: 20em;
